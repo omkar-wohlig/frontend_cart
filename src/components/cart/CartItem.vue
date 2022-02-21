@@ -8,7 +8,7 @@
       <div class="item__data">
         <div>
           Price per Item:
-          <strong>${{ price }}</strong>
+          <strong>₹{{ price }}</strong>
         </div>
         <div>
           Quantity:

@@ -7,7 +7,7 @@
       <div class="product__text">
         <h3>{{ title }}</h3>
         <base-badge mode="highlight" :no-margin-left="true">
-          <h4>${{ price }}</h4>
+          <h4>₹{{ price }}</h4>
         </base-badge>
         <p>{{ description }}</p>
       </div>
