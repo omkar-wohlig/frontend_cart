@@ -1,5 +1,6 @@
 <template>
   <section>
+    <the-header></the-header>
     <ul>
       <product-item
         v-for="prod in products"
@@ -16,10 +17,12 @@
 
 <script>
 import ProductItem from '../components/products/ProductItem.vue';
+import TheHeader from '../components/nav/TheHeader.vue';
 
 export default {
   components: {
     ProductItem,
+    TheHeader,
   },
   computed: {
     products() {
