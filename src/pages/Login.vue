@@ -37,6 +37,9 @@
   </div>
 </template>
 <style scoped>
+.vue-tempalte{
+  margin-top: 5rem;
+}
 button.btn.btn-dark.btn-lg.btn-block {
     margin-top: 1rem;
 }
